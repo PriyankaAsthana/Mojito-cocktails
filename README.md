@@ -1,4 +1,3 @@
-![readme-cover](https://github.com/user-attachments/assets/e74d8157-5da6-4ecb-bb25-6638cf9aad0d)
 # 🍸 **Velvet Pour** — The Ultimate Cocktail Experience
 
 <div align="center">
@@ -20,33 +19,33 @@
 ## 🧾 Features
 
 - 🧊 **GSAP ice-cube drop animation** on load
-- 🍸 Scroll-based **GSAP reveal animations** on sections
-- 🖋️ Elegant **custom typography** using `Modern Negra` & `DM Serif Text`
-- 🖥️ Fully **responsive layout** across all screen sizes
-- 💨 Built with **Tailwind CSS v4** and **React + Vite**
-- 🌿 **Leaf image assets** that enhance branding
-- ⚡ Smooth **section transitions** and animated social icons
-- 🌈 Designed with *love, flow, and minty aesthetics* ✨
+- 🍃 Parallax **floating leaves animation** on scroll
+- ✨ Text fade + slide reveals across sections
+- 🎩 Classy **hover tilt & pulse** on cocktail cards
+- 🖋️ Elegant **custom typography** (`Modern Negra`, `DM Serif Text`, `Mona Sans`)
+- 🌈 Fully **responsive layout** across all screen sizes
+- 💨 Built with **React + Tailwind v4 + Vite**
+- 🎨 Aesthetic color palette with black, mint, and velvet gold accents
 
 ---
 
 ## 🛠 Tech Stack
 
 <div align="left">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=black"/>
+  <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 </div>
 
 ---
 
-## 🎥 Key Animations
+## 🎥 Core Animations
 
 ```jsx
-// Ice cube drop
+// 🍸 Ice cube drop effect
 useEffect(() => {
   gsap.from(".ice-cube", {
     y: -100,
@@ -56,7 +55,7 @@ useEffect(() => {
   });
 }, []);
 
-// Section fade-in
+// ✨ Section fade-in with scroll trigger
 useEffect(() => {
   gsap.from(".section", {
     opacity: 0,
@@ -68,6 +67,17 @@ useEffect(() => {
     },
   });
 }, []);
+
+// 🌿 Floating leaves (looping parallax)
+gsap.to(".leaf", {
+  y: 10,
+  repeat: -1,
+  yoyo: true,
+  duration: 2,
+  ease: "sine.inOut"
+});
+
+// 💫 Cocktail card tilt on hover (VanillaTilt or GSAP hover)
 ```
 
 ---
@@ -85,8 +95,8 @@ useEffect(() => {
 ```
 VelvetPour/
 ├── public/
-│   ├── images/
-│   └── icons/
+│   ├── images/       # Leaves, backgrounds, ice
+│   └── icons/        # Social icons
 ├── src/
 │   ├── components/
 │   │   ├── Hero.jsx
@@ -102,8 +112,6 @@ VelvetPour/
 
 ## 🚀 Getting Started
 
-Clone the project and run locally:
-
 ```bash
 git clone https://github.com/your-username/velvet-pour.git
 cd velvet-pour
@@ -115,10 +123,11 @@ npm run dev
 
 ## 📌 Upcoming Enhancements
 
-- 🧃 Filterable cocktail menu by category
-- 🔍 Real-time search functionality
-- 🍋 Animated liquid pour effect on scroll
-- 💌 Contact form + newsletter modal
+- 🧃 Cocktail cards with 3D hover animations
+- 🔍 Interactive live search with GSAP results reveal
+- 🍋 Liquid motion effect on scroll (clip path morphing)
+- 💌 Contact form modal with animated success tick
+- 🎶 Optional soft background jazz toggle 🎷
 
 ---
 
@@ -126,7 +135,7 @@ npm run dev
 
 - 👩‍💻 Design & Development: [**Priyanka Asthana**](https://github.com/your-username)
 - Fonts: [Modern Negra](https://fonts.google.com/specimen/DM+Serif+Text), [Mona Sans](https://github.com/github/mona-sans)
-- Icons: [Lucide](https://lucide.dev/)
+- Icons: [Lucide](https://lucide.dev/), [Feather Icons](https://feathericons.com/)
 - Animations: [GSAP](https://greensock.com/gsap/)
 
 ---
