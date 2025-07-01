@@ -85,7 +85,7 @@ const Hero = () => {
 		 alt="right-leaf"
 		 className="right-leaf"
 		/>
-		
+		<img src="/images/arrow.png" alt="scroll down" className="arrow" />
 		<div className="body">
 		 {/* <img src="/images/arrow.png" alt="arrow" className="arrow" /> */}
 		 

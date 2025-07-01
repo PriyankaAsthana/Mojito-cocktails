@@ -90,7 +90,7 @@ body {
 
     #hero {
         @apply relative z-10 min-h-dvh w-full border border-transparent;
-
+        
         h1 {
             @apply md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-modern-negra;
         }
@@ -98,7 +98,9 @@ body {
         .left-leaf {
             @apply absolute left-0 md:top-20 xl:top-36 2xl:top-52 md:bottom-auto -bottom-20 md:w-fit w-1/3;
         }
-
+        .arrow {
+            @apply absolute right-5 bottom-5 w-6 md:w-8 z-30;
+        }
         .right-leaf {
             @apply absolute right-0 md:bottom-0 xl:top-0 2xl:top-12 top-1/2 md:w-fit w-24;
         }
@@ -116,7 +118,6 @@ body {
                 p:last-of-type {
                     @apply 2xl:text-start text-center;
                 }
-
                 .view-cocktails {
                     @apply space-y-5 text-lg lg:max-w-2xs md:max-w-xs w-full;
 
@@ -148,7 +149,7 @@ body {
         }
 
         .list {
-            @apply container mx-auto relative z-10 flex md:flex-row flex-col justify-between items-start gap-20 pb-0 pt-20 2xl:px-0 px-5 mb-[-70px];
+            @apply container mx-auto relative z-10 flex md:flex-row flex-col justify-between items-start gap-20 pt-40 2xl:px-0 px-5 mb-[-70px];
 
             .popular {
                 @apply space-y-8 w-full md:w-fit;
@@ -257,7 +258,7 @@ body {
 
         .masked-container {
             h2 {
-                @apply text-4xl md:text-5xl font-modern-negra text-center mb-10 text-white mt-32;
+                @apply text-4xl md:text-5xl font-modern-negra text-center mb-30 text-white mt-32;
             }
 
             div {
@@ -343,7 +344,7 @@ body {
     }
 
     #contact {
-        @apply relative md:mt-20 mt-0 px-4 text-center w-full overflow-hidden radial-gradient;
+        @apply relative md:mt-20 px-4 text-center w-full overflow-hidden radial-gradient mt-0;
 
         #f-left-leaf {
             @apply absolute bottom-0 left-0 pointer-events-none lg:w-fit w-1/3;
