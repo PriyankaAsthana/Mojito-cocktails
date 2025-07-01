@@ -19,7 +19,7 @@
 🔗 [**velvetpour.vercel.app**](https://mojito-cocktails-cyan.vercel.app)
 
 <p align="center">
-  <img src="https://media.giphy.com/media/xTiTnHXbRoaZ1B1Mo8/giphy.gif" width="700" />
+  <img src="https://media.giphy.com/media/3ohzdIuqJoo8QdKlnW/giphy.gif" width="700" />
 </p>
 
 ---
@@ -86,7 +86,7 @@ ScrollTrigger.batch(".reveal", {
 
 | Ice Drop | Leaf Float | Card Hover |
 |----------|-------------|------------|
-| ![Ice](https://media.giphy.com/media/xTiTnHXbRoaZ1B1Mo8/giphy.gif) | ![Leaf](https://media.giphy.com/media/ZFTK3FE0PKC1a/giphy.gif) | ![Card](https://media.giphy.com/media/0OgoGz3vBSjYkTJhS6/giphy.gif) |
+| ![Ice](https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif) | ![Leaf](https://media.giphy.com/media/3oEjHGrVGrqgFFknfO/giphy.gif) | ![Card](https://media.giphy.com/media/QMkPpxPDYY0fu/giphy.gif) |
 
 ---
 
