@@ -63,7 +63,7 @@ const Contact = () => {
       <img
         src="/images/beer2.jpg"
         alt="leaf"
-        className="absolute bottom-0 right-0 w-58 sm:w-48 md:w-68 lg:w-68 opacity-80"
+        className="absolute bottom-0 right-0 w-48 sm:w-48 md:w-48 lg:w-68 opacity-80"
       />
 
       <div className="w-full max-w-6xl mx-auto text-center space-y-16 px-2">
@@ -88,7 +88,7 @@ const Contact = () => {
           <div className="space-y-2">
             <h4 className="text-white text-lg font-bold mb-1">Contact Us</h4>
             <p>123456789</p>
-            <p>hello@VelvetPourmcocktail.com</p>
+            <p>@VelvetPourmcocktail.com</p>
           </div>
 
           <div className="space-y-2">
