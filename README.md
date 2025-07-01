@@ -18,10 +18,6 @@
 
 🔗 [**velvetpour.vercel.app**](https://mojito-cocktails-cyan.vercel.app)
 
-<p align="center">
-  <img src="https://media.giphy.com/media/3ohzdIuqJoo8QdKlnW/giphy.gif" width="700" />
-</p>
-
 ---
 
 ## 💎 Features That Sparkle
@@ -82,13 +78,6 @@ ScrollTrigger.batch(".reveal", {
 
 ---
 
-## 🎞️ Visual Animation Gallery
-
-| Ice Drop | Leaf Float | Card Hover |
-|----------|-------------|------------|
-| ![Ice](https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif) | ![Leaf](https://media.giphy.com/media/3oEjHGrVGrqgFFknfO/giphy.gif) | ![Card](https://media.giphy.com/media/QMkPpxPDYY0fu/giphy.gif) |
-
----
 
 ## 🧾 Project Structure
 
