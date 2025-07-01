@@ -1,3 +1,5 @@
+![readme-cover](https://github.com/user-attachments/assets/e5221214-2045-417f-909a-c6564340f923)
+
 # 🧊✨ **Velvet Pour** — The Ultimate Cocktail Experience
 
 <div align="center">
