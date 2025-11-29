@@ -8,7 +8,7 @@ import About from './components/About'
 import Art from './components/Art'
 import Menu from './components/Menu'
 import Contact from './components/Contact' 
-
+ 
 // Register GSAP plugins
 gsap.registerPlugin(ScrollTrigger, SplitText)
 
